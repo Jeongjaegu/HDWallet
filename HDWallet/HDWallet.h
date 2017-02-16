@@ -7,3 +7,4 @@ FOUNDATION_EXPORT const unsigned char HDWalletVersionString[];
 #import <HDWallet/BTCKeychain.h>
 #import <HDWallet/BTCKey.h>
 #import <HDWallet/BTCAddress.h>
+#import <HDWallet/BTCSignatureHashType.h>

@@ -1,7 +1,7 @@
 // CoreBitcoin by Oleg Andreev <oleganza@gmail.com>, WTFPL.
 
 #import <Foundation/Foundation.h>
-#import "BTCSignatureHashType.h"
+#import <HDWallet/BTCSignatureHashType.h>
 
 @class BTCCurvePoint;
 @class BTCPublicKeyAddress;
