@@ -16,12 +16,12 @@
 		9F378C211E5492BF009B4186 /* BTCData.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F378C1F1E5492BF009B4186 /* BTCData.m */; };
 		9F378C241E5492D6009B4186 /* BTCProtocolSerialization.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F378C221E5492D6009B4186 /* BTCProtocolSerialization.h */; };
 		9F378C251E5492D6009B4186 /* BTCProtocolSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F378C231E5492D6009B4186 /* BTCProtocolSerialization.m */; };
-		9F378CCC1E54943B009B4186 /* BTCKey.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F378CCA1E54943B009B4186 /* BTCKey.h */; };
+		9F378CCC1E54943B009B4186 /* BTCKey.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F378CCA1E54943B009B4186 /* BTCKey.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9F378CCD1E54943B009B4186 /* BTCKey.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F378CCB1E54943B009B4186 /* BTCKey.m */; };
 		9F378CCF1E549489009B4186 /* BTCSignatureHashType.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F378CCE1E549489009B4186 /* BTCSignatureHashType.h */; };
 		9FC0D30B1E54955200A46760 /* BTCCurvePoint.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FC0D3091E54955200A46760 /* BTCCurvePoint.h */; };
 		9FC0D30C1E54955200A46760 /* BTCCurvePoint.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FC0D30A1E54955200A46760 /* BTCCurvePoint.m */; };
-		9FC0D30F1E54956600A46760 /* BTCAddress.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FC0D30D1E54956600A46760 /* BTCAddress.h */; };
+		9FC0D30F1E54956600A46760 /* BTCAddress.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FC0D30D1E54956600A46760 /* BTCAddress.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9FC0D3101E54956600A46760 /* BTCAddress.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FC0D30E1E54956600A46760 /* BTCAddress.m */; };
 		9FC0D3121E54957300A46760 /* BTCAddressSubclass.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FC0D3111E54957300A46760 /* BTCAddressSubclass.h */; };
 		9FC0D3151E54958100A46760 /* BTCNetwork.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FC0D3131E54958100A46760 /* BTCNetwork.h */; };
@@ -207,10 +207,10 @@
 				9FC0D3191E54959300A46760 /* BTC256.h in Headers */,
 				9F378C181E5492A3009B4186 /* BTCMnemonic.h in Headers */,
 				9F378C1C1E5492B0009B4186 /* BTCKeychain.h in Headers */,
-				9FC0D31D1E5495B000A46760 /* BTCBase58.h in Headers */,
-				9F378CCF1E549489009B4186 /* BTCSignatureHashType.h in Headers */,
 				9F378CCC1E54943B009B4186 /* BTCKey.h in Headers */,
 				9FC0D30F1E54956600A46760 /* BTCAddress.h in Headers */,
+				9FC0D31D1E5495B000A46760 /* BTCBase58.h in Headers */,
+				9F378CCF1E549489009B4186 /* BTCSignatureHashType.h in Headers */,
 				9F378C201E5492BF009B4186 /* BTCData.h in Headers */,
 				9FC0D30B1E54955200A46760 /* BTCCurvePoint.h in Headers */,
 				9FC0D3151E54958100A46760 /* BTCNetwork.h in Headers */,
@@ -562,6 +562,7 @@
 				9FC0D3DE1E54977A00A46760 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
