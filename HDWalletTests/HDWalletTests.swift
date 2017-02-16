@@ -3,8 +3,6 @@ import HDWallet
 
 class HDWalletTests: XCTestCase {
 
-    var mnemonic: BTCMnemonic!
-    
     override func setUp() {
         super.setUp()
         //// This is how we can generate new keys from secure random entropy:
@@ -27,9 +25,13 @@ class HDWalletTests: XCTestCase {
         let words = "couple muscle snack heavy gloom orchard tooth alert crane spider ask horn".components(separatedBy: " ")
         let mnemonic = BTCMnemonic(words: words, password: nil, wordListType: .english)!
 
-        // path 0H/1/0
+        // path 0H/1/0, used for ID
         let keychain = mnemonic.keychain.derivedKeychain(at: 0, hardened: true).derivedKeychain(at: 1).derivedKeychain(at: 0)
         print(keychain.key.privateKey, "9fb68eb9bba46f357c69323506c584d12a1e4865f0f8f763942650a288ba2a00".hexadecimalData!)
+
+        // path 0H/)/0, used for FUNDS
+        let walletKeychain = mnemonic.keychain.derivedKeychain(at: 0, hardened: true).derivedKeychain(at: 0).derivedKeychain(at: 0)
+        print(walletKeychain.key.privateKey, "96fa3f53c7f1573f920a7422a0d48c23dfc644002f322b3612d32be494e8ff8e".hexadecimalData!)
     }
 }
 
