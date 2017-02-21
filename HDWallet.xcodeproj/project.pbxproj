@@ -475,7 +475,6 @@
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(SRCROOT)/openssl/lib",
-					"$(PROJECT_DIR)/openssl/lib",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = no.bakkenbaeck.HDWallet;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -501,7 +500,6 @@
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(SRCROOT)/openssl/lib",
-					"$(PROJECT_DIR)/openssl/lib",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = no.bakkenbaeck.HDWallet;
 				PRODUCT_NAME = "$(TARGET_NAME)";
